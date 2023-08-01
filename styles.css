@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+	margin-top:40px;
+}
+.input-log{
+	text-align:center;
+	margin: 30px 20px ;
+	
+}
+.input-log>label, .input-log>input, .input-log>button{
+	margin: 10px 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+}
+.input-log button{
+	height: 40px;
+    border-radius: 5px;
+    background-color: #2294ED;
+    color: white;
+    width: 250px;
+}
+.input-log>input{
+	text-indent:10px;
+}
+.grid-temp{
+display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows:repeat(3,1fr);
+	border:1.5px solid black;
+	width:350px;
+	height:350px;
+	
+}
+.grid-temp>div{
+	border: solid black 1.5px;
+    background-color: #FFC0CB;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-log{
+display:flex;
+justify-content:flex-start;
+gap:280px;
+}
+
+
+
+
+
+
+
+
